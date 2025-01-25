@@ -11,6 +11,12 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "isolatedModules": true,
+    "paths": {
+      "ngx-ateriss": [
+       // "./dist/ngx-ateriss"
+       "./projects/ngx-ateriss/src/public-api.ts"
+      ]
+    },
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
