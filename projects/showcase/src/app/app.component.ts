@@ -1,3 +1,4 @@
+import { NgxAterissIconComponent } from './../../../ngx-ateriss/components/icons/input.component';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NgxAterissInputComponent } from '../../../ngx-ateriss/components/input';
@@ -7,7 +8,7 @@ import { NgxAterissSelectComponent } from "../../../ngx-ateriss/components/selec
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NgxAterissInputComponent, NgxAterissSelectComponent],
+  imports: [RouterOutlet, NgxAterissInputComponent, NgxAterissSelectComponent, NgxAterissIconComponent], 
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
